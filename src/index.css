@@ -8,7 +8,8 @@ body {
 }
 
 .cart-item {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   margin: 20px 10px;
 }
 .cart-item .right-block {
@@ -24,4 +25,9 @@ body {
 }
 .action-icons:hover {
   cursor: pointer;
+}
+
+.Cart{
+   display: flex;
+   flex-direction: column;
 }
